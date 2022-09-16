@@ -57,8 +57,6 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
   color: #666;
 }
 /*--
@@ -101,7 +99,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 100px 0 100px 0;
   position: relative;
 }
 #slider:before {
@@ -126,7 +124,6 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
-  text-shadow: 2px 2px #000000;
 }
 #slider .block p {
   font-size: 23px;
@@ -134,7 +131,6 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  text-shadow: 2px 2px #000000;
 }
 /*--
 	wrapper Start
@@ -152,8 +148,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  padding-left: 40px;
   width: 100%;
+  padding-top: 10px;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -161,10 +157,32 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+#intro .btn-view-works {
+  font-family: 'Roboto', sans-serif;
+  color: #655E7A;
+  padding: 0;
+  margin: 30px 0;
+}
+.fa {
+  font-size: 25px;
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /*--
 	service Start
 --*/
 #service {
+  background: #F5F5F5;
   text-align: center;
   padding: 90px 0;
 }
@@ -262,11 +280,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature p {
   color: #8d8f92;
   margin-bottom: 20px;
-}
-#feature .btn-view-works {
-  background: #655E7A;
-  color: #fff;
-  padding: 10px 20px;
 }
 /*--
 	content Start
