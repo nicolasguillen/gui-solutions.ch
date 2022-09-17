@@ -144,7 +144,8 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: #2f2f2f;
+  font-size: 18px;
   padding-top: 20px;
 }
 #intro .block img {
@@ -179,11 +180,12 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 30px;
 }
 #service .service-item i {
-  font-size: 60px;
+  font-size: 50px;
   color: #4A4656;
 }
 #service .service-item h4 {
-  padding-top: 20px;
+  padding-top: 10px;
+  font-size: 16px;
   margin: 0;
   color: #666;
 }
